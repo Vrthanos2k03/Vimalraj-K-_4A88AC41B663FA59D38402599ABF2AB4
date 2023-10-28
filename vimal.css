@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.resume, .biodata {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+div{
+    width: 300px;
+    border: 15px gray ;
+    padding: 50px;
+    margin: 20px;
+}
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .resume, .biodata {
+        margin: 10px;
+        padding: 10px;
+    }
+}
